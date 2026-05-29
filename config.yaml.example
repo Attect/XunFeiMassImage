@@ -1,0 +1,24 @@
+# 讯飞星火图片生成工具 - 配置文件示例
+# 复制此文件为 config.yaml 并填入你的凭证
+
+app_id: your_app_id_here
+api_key: your_api_key_here
+api_secret: your_api_secret_here
+model_id: your_model_id_here
+
+# 可选：LoRA patch ID 列表
+# patch_id:
+#   - "patch_id_1"
+
+api_url: https://maas-api.cn-huabei-1.xf-yun.com/v2.1/tti
+width: 512
+height: 512
+seed: 12345
+num_inference_steps: 20
+guidance_scale: 5.0
+scheduler: DPM++ 2M Karras
+
+# MCP 服务配置
+mcp_enabled: false
+mcp_host: 127.0.0.1
+mcp_port: 3001
