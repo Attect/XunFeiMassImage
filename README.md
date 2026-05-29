@@ -1,4 +1,4 @@
-# xunfei-image-gen
+# XunFeiMassImage
 
 基于 Rust 的跨平台客户端，用于调用**讯飞星辰 MaaS 平台**的图片生成（文生图）推理服务。
 
@@ -216,8 +216,7 @@ cargo build --release
 │   ├── config.rs     # Config 结构体，YAML 加载/保存/验证
 │   ├── cli.rs        # CLI 参数解析与执行
 │   ├── gui.rs        # egui GUI 实现
-│   ├── mcp.rs        # MCP SSE 服务器（JSON-RPC 2.0）
-│   └── watermark.rs  # 去水印算法（当前未编译到主程序）
+│   └── mcp.rs        # MCP SSE 服务器（JSON-RPC 2.0）
 ├── config.yaml.example
 ├── Cargo.toml
 └── README.md
